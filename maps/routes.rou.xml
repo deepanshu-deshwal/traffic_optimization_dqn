@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+    <vType id="car" accel="2.6" decel="4.5" sigma="0.5" length="5" minGap="2.5" maxSpeed="27.78" guiShape="passenger"/>
+
+    <route id="west_to_east" edges="W_J J_E"/>
+    <route id="east_to_west" edges="E_J J_W"/>
+    <route id="south_to_north" edges="S_J J_N"/>
+    <route id="north_to_south" edges="N_J J_S"/>
+
+    <!-- Highway demand: 1200 vehicles/hour in each direction -->
+    <flow id="hwy_WE" type="car" route="west_to_east" begin="0" end="3600" vehsPerHour="1200" departLane="best" departSpeed="max"/>
+    <flow id="hwy_EW" type="car" route="east_to_west" begin="0" end="3600" vehsPerHour="1200" departLane="best" departSpeed="max"/>
+
+    <!-- City-road demand: 300 vehicles/hour in each direction -->
+    <flow id="city_SN" type="car" route="south_to_north" begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+    <flow id="city_NS" type="car" route="north_to_south" begin="0" end="3600" vehsPerHour="300" departLane="best" departSpeed="max"/>
+</routes>

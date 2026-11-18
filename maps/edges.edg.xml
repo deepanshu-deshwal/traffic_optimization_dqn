@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- East-west highway: 4 lanes in each direction, 100 km/h -->
+    <edge id="W_J" from="W" to="J" priority="10" numLanes="4" speed="27.78"/>
+    <edge id="J_W" from="J" to="W" priority="10" numLanes="4" speed="27.78"/>
+    <edge id="E_J" from="E" to="J" priority="10" numLanes="4" speed="27.78"/>
+    <edge id="J_E" from="J" to="E" priority="10" numLanes="4" speed="27.78"/>
+
+    <!-- North-south city road: 1 lane in each direction, 50 km/h -->
+    <edge id="S_J" from="S" to="J" priority="5" numLanes="1" speed="13.89"/>
+    <edge id="J_S" from="J" to="S" priority="5" numLanes="1" speed="13.89"/>
+    <edge id="N_J" from="N" to="J" priority="5" numLanes="1" speed="13.89"/>
+    <edge id="J_N" from="J" to="N" priority="5" numLanes="1" speed="13.89"/>
+</edges>

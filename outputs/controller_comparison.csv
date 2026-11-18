@@ -1,0 +1,14 @@
+metric,fixed_time,reinforcement_learning
+departed_vehicles,3000,3000
+arrived_vehicles,2937,2956
+unfinished_vehicles,63,44
+total_waiting_time_seconds,29342.0,7612.0
+mean_waiting_time_seconds,9.990466462376574,2.57510148849797
+total_time_loss_seconds,58082.97128853576,32740.80054348585
+mean_time_loss_seconds,19.77629257355661,11.076048898337568
+average_queue_vehicles,8.356388888888889,2.1308333333333334
+maximum_queue_vehicles,28.0,10.0
+average_highway_queue,6.387777777777778,1.5730555555555557
+average_city_queue,1.968611111111111,0.5577777777777778
+mean_speed_mps,15.550666167678981,18.024591208766964
+mean_speed_kph,55.98239820364434,64.88852835156108
